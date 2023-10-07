@@ -13,19 +13,18 @@
         <header>
             <nav class="menu">
                 <ul class="header__links-list">
-                    <li class="header__links-list-item_no-bullit"><a href="#" class="header__link_active">главная</a></li>
+                    <li class="header__links-list-item header__links-list-item_no-bullit"><a href="#" class=" header__link header__link_active">главная</a></li>
                     <li class="header__links-list-item"><a href="#" class="header__link">посмотреть лоты</a></li>
                     <li class="header__links-list-item"><a href="#" class="header__link">об аукционе</a></li>
                 </ul>
             </nav>
-            <a class="logo-black">
+            <a class="logo-header">
                 <img src="images/logo-black.svg" alt="оно-тебе-надо-лого" />
             </a>
 
-            <address class="header__address">
-                <a class="header__link" href="tel:+9-999-555-55-55">+9 999 555 5555 </a> <br />
-
-                <a class="header__link" href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
+            <address class="header__address"> <!-- Использование этого названия класса обусловлено рекомендациями заданиия. Цититата из задания: "header__address — потребуется, чтобы выравнивать блок с адресом. В футере используется другое выравнивание." -->
+                <a class="address__link" href="tel:+9-999-555-55-55">+9 999 555 5555 </a> <br />
+                <a class="address__link" href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
                 <p>наб. Принсенграхт 263-265, Амстердам</p>
             </address>
         </header>
@@ -34,9 +33,9 @@
                 <div class="overlay"></div>
 
                 <h1 class="cover__title">
-                    <span class="aligned-text">о<span class="letter-spacing-extended">н</span>о</span>
-                    <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-                    <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+                    <span class="aligned-text_left aligned-text">о<span class="letter-spacing-extended">н</span>о</span>
+                    <span class="aligned-text_center aligned-text">те<span class="letter-spacing-extended">бе</span></span>
+                    <span class="aligned-text_right aligned-text"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
                 </h1>
                 <div class="cover__description">
                     <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
@@ -86,18 +85,18 @@
             </section>
 
             <section class="about">
-                <div class="about__column-left">
+                <div class="about__column">
                     <div class="about__logo">
                         <img class="about__logo-image" src="images/logo-white.svg" alt="оно-тебе-надо-лого" />
                     </div>
                 </div>
                 <div class="about__text">
                     <h2 class="about__title">об аукционе</h2>
-                    <p class="top_p">
+                    <p class="about_p">
                         Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
                         может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
                     </p>
-                    <p class="bottom_p">
+                    <p class="about_p">
                         Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся
                         простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
                     </p>
@@ -106,14 +105,13 @@
         </main>
         <footer>
             <address>
-                <a class="header__link" href="tel:+99995555555">+9 999 555 5555 </a><br />
-
-                <a class="header__link" href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
+                <a class="address__link" href="tel:+99995555555">+9 999 555 5555 </a><br />
+                <a class="address__link" href="mailto:info@sobaka.ge"> info@sobaka.ge</a>
                 <p>наб. Принсенграхт 263-265, Амстердам</p>
             </address>
             <nav class="footer__menu">
                 <ul class="footer__menu-list">
-                    <li class="footer__menu-list-item"><a class="footer__menu-link_active">главная</a></li>
+                    <li class="footer__menu-list-item"><a class="footer__menu-link footer__menu-link_active">главная</a></li>
                     <li class="footer__menu-list-item"><a href="#" class="footer__menu-link">посмотреть лоты</a></li>
                     <li class="footer__menu-list-item"><a href="#" class="footer__menu-link">об аукционе</a></li>
                 </ul>
